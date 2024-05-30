@@ -14,6 +14,7 @@ export default {
         'bgsec': "url('https://bookmyjunk.com/src/img/bgsec.png')",
         'hazards': "url('https://bookmyjunk.com/src/img/bgshape.png')",
         'book': "url('https://bookmyjunk.com/src/img/bgshape1.png')",
+        'linewarriors': "url('https://bookmyjunk.com/src/img/linewarriers.png')",
       },
     },
   },

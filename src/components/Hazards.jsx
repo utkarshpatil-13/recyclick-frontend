@@ -9,7 +9,8 @@ const Hazards = () => {
                 <div className='w-[80vw] mx-auto p-20'>
                     <h2 className='w-[37vw] text-5xl font-bold'>The Hidden Health Hazards of E-Waste in India</h2>  
                     <p className='my-10 text-xl'>The rapid growth of the electronics industry in India has resulted in a significant increase in e-waste generation. While electronic devices have made our lives easier, they also contain hazardous substances that can pose a serious threat to human health and the environment. Here are some eye-opening statistics that highlight the dangers of e-waste in India.</p> 
-                    <div className='my-10 flex bg-white px-20 py-10 rounded-3xl items-center gap-10'>
+                    <div className='relative my-10 flex bg-white px-20 py-10 rounded-3xl items-center gap-10'>
+                        <img src="https://bookmyjunk.com/src/img/shape1.png" className="absolute left-0 top-0" alt="" />
                         <div>
                             <h2 className='text-4xl font-bold'>Health Hazards of E-Waste</h2>
                             <p className='my-4 text-xl'>Electronic waste contains toxic substances such as lead, mercury, cadmium, and brominated flame retardants, which can cause serious health problems when not disposed of properly.</p>
@@ -26,7 +27,8 @@ const Hazards = () => {
                             <img src="https://bookmyjunk.com/src/img/healthpic.png" className='w-[60vw]' alt="" />
                         </div>
                     </div>
-                    <div className='my-10 flex bg-white px-20 py-10 rounded-3xl items-center gap-10'>
+                    <div className='relative my-10 flex bg-white px-20 py-10 rounded-3xl items-center gap-10'>
+                        <img src="https://bookmyjunk.com/src/img/shape2.png" className="absolute right-0 top-0" alt="" />
                         <div>
                             <img src="https://bookmyjunk.com/src/img/e-waste-pic.png" className='w-[70vw]' alt="" />
                         </div>

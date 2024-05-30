@@ -4,6 +4,12 @@ import whatsapp from '../assets/whatsapp.svg'
 import VideoPage from './VideoPage'
 import Hazards from './Hazards'
 import Book from './Book'
+import EcoWarriors from './EcoWarriors'
+import Ewaste from './Ewaste'
+import AppWorking from './AppWorking'
+import About from './About'
+import Contact from './Contact'
+import FAQ from './FAQ'
 
 const IndexPage = () => {
   return (
@@ -41,6 +47,12 @@ const IndexPage = () => {
         <VideoPage />
         <Hazards />
         <Book />
+        <EcoWarriors />
+        <Ewaste />
+        <AppWorking />
+        <About />
+        <Contact />
+        <FAQ />
     </>
   )
 }
