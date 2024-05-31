@@ -5,7 +5,7 @@ const AppWorking = () => {
   return (
     <div className='relative flex flex-col justify-center items-center'>
         <div className="absolute inset-0 bg-hazards bg-auto bg-no-repeat bg-right-top"></div>
-        <div className='max-md:w-[50vh]'>
+        <div className='max-md:w-[50vh] max-md:flex max-md:justify-center'>
             <img src={recyclikLogo} alt="" />
         </div>
         <div className='my-10 max-md:text-center'>
@@ -14,8 +14,8 @@ const AppWorking = () => {
         </div>
         <div className='flex flex-col justify-center w-[50vw] max-md:w-[35vh]'>
             <img src="https://bookmyjunk.com/src/img/works.png" className='max-md:hidden' alt="" />
-            <div className='flex justify-between mt-5 text-xl font-bold gap-x-40 max-md:gap-x-20 max-md:text-lg max-md:text-center'>
-                <ul className='flex md:hidden flex-col'>
+            <div className='flex justify-center mt-5 text-xl font-bold gap-x-40 max-md:gap-x-0 max-md:text-lg max-md:text-center'>
+                <ul className='flex md:hidden flex-col '>
                     <li className='flex flex-col items-center py-10'>
                         <img src="https://bookmyjunk.com/src/img/ic1.png" alt="" />
                         <span className='mt-2'>DOWNLOAD AND REGISTER</span>
