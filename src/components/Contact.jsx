@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <>
             <div className="w-full bg-[#3FB98C] text-white">
-                <div className="flex w-[80vw] h-[70vh] mx-auto p-20 gap-5 items-center justify-center">
+                <div className="flex w-[80vw] h-[70vh] mx-auto p-20 gap-5 items-center justify-center max-md:flex-col max-md:h-fit max-md:p-5">
                     <div className="flex flex-col gap-3">
                         <h2 className="text-5xl font-semibold">
                             Time to make Mumbai Clean from e-waste!

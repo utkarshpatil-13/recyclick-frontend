@@ -42,18 +42,18 @@ const EcoWarriors = () => {
     ]
 
     return (
-        <div className='relative bg-[rgb(63,185,140)] text-white h-fit w-full'>
-            <div className="absolute inset-0 bg-linewarriors bg-auto bg-no-repeat bg-center"></div>
-            <div className="relative z-10 mx-auto p-10 text-center">
+        <div className='relative bg-[hsl(158,49%,49%)] text-white h-fit w-full'>
+            <div className="max-md:hidden absolute inset-0 bg-linewarriors bg-auto bg-no-repeat bg-center"></div>
+            <div className="mx-auto p-10 text-center max-md:p-3 max-md:py-10">
                 <h2 className='text-5xl font-bold mt-7 text-center'>Meet our recent Eco Warriors</h2>
-                <div className='my-8 flex py-10 rounded-3xl gap-10'>
-                    <div className='w-full h-96 text-center'>
-                        <div className='flex flex-wrap justify-center gap-3 mt-10 w-[80vw] h-[20em] mx-auto'>
+                <div className='my-8 flex py-10 rounded-3xl gap-10 max-md:flex-col max-md:py-0'>
+                    <ul className='w-full h-fit text-center'>
+                        <li className='flex justify-center gap-3 mt-10 mb-10 mx-auto max-md:flex-col max-md:items-center'>
                             {
                                 warriors.map((warrior, index) => <Warrior image={warrior.image} name={warrior.name} address={warrior.address} index={index} />)
                             }
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
                 <button className='text-xl text-black bg-white rounded-full px-10 py-3 font-bold'>BECOME AN ECO WARRIOR</button>
             </div>

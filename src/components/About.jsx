@@ -15,9 +15,9 @@ const About = () => {
   return (
     <>
         <div className='relative h-fit bg-white'>
-            <div className='flex w-[80vw] mx-auto p-20 gap-20'>
+            <div className='flex w-[80vw] mx-auto p-20 gap-20 max-md:p-5 max-md:flex-col max-md:text-center max-md:w-full max-md:mx-0'>
                 <div className="absolute inset-0 bg-book bg-auto bg-no-repeat bg-left-top"></div>
-                <div className='w-[60vw]'>
+                <div className='w-[60vw] max-md:w-full max-md:px-5'>
                     <h2 className='text-5xl font-bold'>About Book My Junk</h2>
                     <p className='text-2xl mt-5'>Who we are and what we stand for in Mumbai</p>
                     <ul className='my-10'    >
@@ -31,24 +31,24 @@ const About = () => {
                     }
                     </ul>
                 </div>
-                <div className='flex flex-col gap-5'>
-                    <div className='bg-[#F5F5F5] rounded-2xl px-3 py-5 w-[20vw] flex flex-col gap-5'>
+                <div className='flex flex-col gap-5 max-md:w-full'>
+                    <div className='bg-[#F5F5F5] rounded-2xl px-3 py-5 w-[20vw] flex flex-col gap-5 max-md:w-full'>
                         <h2 className='text-4xl font-semibold'>VISION</h2>
                         <p className='text-xl'>To be a benchmark solution provider in the field of environment protection.</p>
                     </div>
-                    <div className='bg-[#F5F5F5] rounded-2xl px-3 py-5 w-[20vw] flex flex-col gap-5'>
+                    <div className='bg-[#F5F5F5] rounded-2xl px-3 py-5 w-[20vw] flex flex-col gap-5 max-md:w-full'>
                         <h2 className='text-4xl font-semibold'>MISSION</h2>
                         <p className='text-xl'>To propagate and serve the cause of environment protection through technology and efficient management of resources.</p>
                     </div>
-                    <div className='bg-[#F5F5F5] rounded-2xl px-3 py-5 w-[20vw] flex flex-col gap-5'>
+                    <div className='bg-[#F5F5F5] rounded-2xl px-3 py-5 w-[20vw] flex flex-col gap-5 max-md:w-full'>
                         <h2 className='text-4xl font-semibold'>VALUES</h2>
                         <p className='text-xl'>Credibility, Integrity, Concern Co-operation.</p>
                     </div>
                 </div>
             </div>
-            <div className='flex w-[80vw] mx-auto p-20 gap-7'>
+            <div className='flex w-[80vw] mx-auto p-20 gap-7 max-md:w-full max-md:flex-col max-md:p-5'>
                 <div className='border-2 border-[#3FB98C] p-10 rounded-2xl'>
-                    <div className='flex gap-3 items-center'>
+                    <div className='flex gap-3 items-center max-md:flex-col max-md:my-5 max-md:text-center'>
                         <img src="https://bookmyjunk.com/src/img/soni.png" className='p-5 rounded-full' alt="" />
                         <div>
                             <h2 className='text-4xl text-semibold'>B.K. Soni</h2>
@@ -60,7 +60,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='border-2 border-[#3FB98C] p-10 rounded-2xl'>
-                    <div className='flex gap-3 items-center'>
+                    <div className='flex gap-3 items-center max-md:flex-col max-md:my-5 max-md:text-center'>
                         <img src="https://bookmyjunk.com/src/img/shashank.png" className='p-5 rounded-full' alt="" />
                         <div>
                             <h2 className='text-4xl text-semibold'>Shashank Soni</h2>

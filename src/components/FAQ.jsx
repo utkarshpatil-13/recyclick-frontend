@@ -43,7 +43,7 @@ const FAQ = () => {
   return (
     
     <>
-        <div className="w-[80vw] mx-auto p-20">
+        <div className="w-[80vw] mx-auto p-20 max-md:p-5 max-lg:p-5">
             <h2 className='text-4xl font-bold mb-5'>FAQ's</h2>
           {faqs.map((question, index) => (
             <Accordian
